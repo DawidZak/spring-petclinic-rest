@@ -244,13 +244,13 @@
                     <container>
                         <mainClass>org.springframework.samples.petclinic.PetClinicApplication</mainClass>
                     </container>
-                    <to>
-                        <image>docker.io/${docker.image.prefix}/${project.artifactId}</image>
-                        <tags>
-                            <tag>${project.version}</tag>
-                            <tag>latest</tag>
-                        </tags>
-                    </to>
+<!--                    <to>-->
+<!--                        <image>docker.io/${docker.image.prefix}/${project.artifactId}</image>-->
+<!--                        <tags>-->
+<!--                            <tag>${project.version}</tag>-->
+<!--                            <tag>latest</tag>-->
+<!--                        </tags>-->
+<!--                    </to>-->
                 </configuration>
             </plugin>
 
